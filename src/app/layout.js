@@ -16,11 +16,14 @@ export const metadata = {
   description: "Prototype Demo for Stratum Industrial Platform",
 };
 
+import { Analytics } from "@vercel/analytics/next";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="id" className={`${openSans.variable} ${jetbrainsMono.variable}`}>
       <body style={{ '--font-heading': 'Switzer, sans-serif' }}>
         {children}
+        <Analytics />
       </body>
     </html>
   );

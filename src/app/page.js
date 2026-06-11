@@ -31,7 +31,7 @@ export default function LandingPage() {
             Akses Demo Dashboard
             <ArrowRight className="w-5 h-5" />
           </Link>
-          <a href="https://github.com/sickn33/stratum-infrastructure" target="_blank" rel="noreferrer" className="flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-white border border-gray-200 hover:border-stratum-surface hover:bg-gray-50 text-stratum-main font-semibold tracking-wide rounded-2xl transition-all duration-300">
+          <a href="https://github.com/dafvv/stratum-prototype" target="_blank" rel="noreferrer" className="flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-white border border-gray-200 hover:border-stratum-surface hover:bg-gray-50 text-stratum-main font-semibold tracking-wide rounded-2xl transition-all duration-300">
             Lihat Arsitektur
           </a>
         </div>
